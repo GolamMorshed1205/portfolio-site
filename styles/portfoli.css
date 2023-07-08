@@ -2,6 +2,19 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+#primary { display: inline-flex;
+        padding: 18px 35px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;}
 
 /* Nav related styles */
 nav {
@@ -11,4 +24,9 @@ nav {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+}
+
+nav ul {display: flex;}
+nav li {
+    display: flex; margin-right: 50px;
 }
